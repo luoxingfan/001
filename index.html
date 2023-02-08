@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>the first file</title>
+    <link
+      rel="shortcut icon"
+      href="./01.jpg
+"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <!--第一处，展示block中的居中，加载图片的方式，以及超链接的使用-->
+    <div style="background: pink; text-align: center">
+      <img
+        alt="易烊千玺"
+        src="https://pic.baike.soso.com/ugc/baikepic2/0/ori-20211220122242-1955242213_png_653_944_844168.jpg/800"
+        title="易烊千玺"
+        width="45px"
+      />
+      <a href="https://www.baidu.com/"><b style="display: block">百度</b></a>
+    </div>
+
+    <!--第二段，复制了上一段，设置flex失败，目前未知-->
+    <div style="background: yellow; text-align: center">
+      <img
+        alt="易烊千玺"
+        src="http://i0.hdslb.com/bfs/archive/8253ad554c6f23018340df80f2e825621daa18ee.jpg"
+        title="设置flex失败"
+        width="200px"
+      />
+      <hr style="color: aliceblue; width: 355px" />
+      <br style="display: block; background-color: beige" />
+      <a href="https://www.baidu.com/">百度</a>
+    </div>
+
+    <!--开始实验radius，同时将超链接载入了图片-->
+    <div
+      style="
+        background: green;
+        height: 100px;
+        width: 1000px;
+        border: 9px solid pink;
+        border-radius: 12px;
+        text-align: cemter;
+      "
+    >
+      <a href="http://www.bilibili.com">
+        <img
+          alt="图片地址"
+          src="http://i0.hdslb.com/bfs/archive/8253ad554c6f23018340df80f2e825621daa18ee.jpg"
+          title="b站"
+          width="123px"
+        />
+      </a>
+    </div>
+
+    <div
+      style="
+        background: orange;
+        width: 123px;
+        height: 123px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+      "
+    >
+      <a href="https://www.bing.com">
+        <div style="background: blue; width: 45px; height: 45px"></div>
+      </a>
+    </div>
+
+    <div style="text-align: center">
+      <a href="./001.html">
+        <img src="./01.jpg" alt="同级目录照片" width="56px" />
+      </a>
+    </div>
+  </body>
+</html>
